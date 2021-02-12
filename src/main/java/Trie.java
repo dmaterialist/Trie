@@ -50,11 +50,8 @@ public final class Trie {
         Leaf n = root;
         Set<String> result = new HashSet<String>();
         for (char c : word.toCharArray()) {
-            if (!n.children.containsKey(c)) {
-                System.out.println(c);
-                System.out.println(word);
+            if (!n.children.containsKey(c))
                 return Collections.emptySet();
-            }
             n = n.children.get(c);
             if (word.indexOf(c) == word.length() - 1) {
                 if (n.wordend) result.add(word);
