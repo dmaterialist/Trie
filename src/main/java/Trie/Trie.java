@@ -1,3 +1,5 @@
+package Trie;
+
 import java.util.*;
 
 public final class Trie {

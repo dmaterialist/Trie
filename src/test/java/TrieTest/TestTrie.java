@@ -1,14 +1,16 @@
+package TrieTest;
+
+import Trie.Trie;
 import org.junit.Test;
 
-import java.io.*;
 import java.util.*;
 
 import static org.junit.Assert.*;
 
-public class testTrie {
+public class TestTrie {
 
     @Test
-    public void FindTest() {
+    public void findTest() {
         Trie test = new Trie();
         String[] t = new String[]{"Yuno", "Yuki", "Yunost", "Yura", "Yuri", "Yurassic", "Yurassa", "Yurasso", ""};
         for (int i = 0; i < 9; i++) {
@@ -20,7 +22,7 @@ public class testTrie {
     }
 
     @Test
-    public void FalseFindTest() {
+    public void falseFindTest() {
         Trie test = new Trie();
         String[] t = new String[]{"Yuno", "Yuki", "Yunost", "Yura", "Yuri", "Yurassic", "Yurassa", "Yurasso", ""};
         for (int i = 0; i < 9; i++) {
@@ -34,7 +36,7 @@ public class testTrie {
     }
 
     @Test
-    public void PrefixTest() {
+    public void prefixTest() {
         Trie test = new Trie();
         String[] t = new String[]{"Yuno", "Yuki", "Yunost", "Yura", "Yuri", "Yurassic", "Yurassa", "Yurasso", ""};
         for (int i = 0; i < 9; i++) {
@@ -48,7 +50,7 @@ public class testTrie {
     }
 
     @Test
-    public void DeleteFindTest() {
+    public void deleteFindTest() {
         Trie test = new Trie();
         String[] t = new String[]{"Yuno", "Yuki", "Yunost", "Yura", "Yuri", "Yurassic", "Yurassa", "Yurasso", ""};
         for (int i = 0; i < 9; i++) {
@@ -62,7 +64,7 @@ public class testTrie {
     }
 
     @Test
-    public void DeletePrefixTest() {
+    public void deletePrefixTest() {
         Trie test = new Trie();
         String[] t = new String[]{"Yuno", "Yuki", "Yunost", "Yura", "Yuri", "Yurassic", "Yurassa", "Yurasso", ""};
         for (int i = 0; i < 9; i++) {
