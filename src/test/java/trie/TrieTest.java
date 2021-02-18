@@ -1,13 +1,12 @@
-package TrieTest;
+package trie;
 
-import Trie.Trie;
 import org.junit.Test;
 
 import java.util.*;
 
 import static org.junit.Assert.*;
 
-public class TestTrie {
+public class TrieTest {
 
     @Test
     public void findTest() {
